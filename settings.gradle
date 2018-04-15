@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'boggle-student'
+rootProject.name = 'burrows-wheeler-student'
