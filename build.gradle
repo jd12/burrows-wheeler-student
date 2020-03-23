@@ -11,8 +11,6 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'checkstyle'
-apply plugin: 'findbugs'
-apply plugin: 'pmd'
 
 checkstyleTest.enabled = false
 
@@ -52,20 +50,3 @@ checkstyle {
     configFile = file("config/checkstyle/checkstyle.xml")
 }
 
-findbugs {
-   ignoreFailures = true
-   excludeFilter = file('config/findbugs/findbugs-coursera.xml')
-}
-
-pmd {
-  ignoreFailures = true
-  ruleSetFiles = files("config/pmd/ruleset.xml")
-  reportsDir = file("$project.buildDir/reports/pmd")
-}
-
-tasks.withType(FindBugs) {
-    reports {
-        xml.enabled false
-        html.enabled true
-    }
-}
