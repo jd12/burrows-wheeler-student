@@ -1,6 +1,7 @@
 ## Assignment Specification
-http://coursera.cs.princeton.edu/algs4/assignments/burrows.html
+https://coursera.cs.princeton.edu/algs4/assignments/burrows/specification.php
 
 ## Checklist 
-http://coursera.cs.princeton.edu/algs4/checklists/burrows.html
+https://coursera.cs.princeton.edu/algs4/assignments/burrows/faq.php
+
 
